@@ -8,7 +8,7 @@ public class Bai3 {
 		String ten = scan.nextLine();
 		System.out.println("ban sinh nam bao nhieu");
 		int nam = scan.nextInt();
-		int n = 2003-nam;
+		int n = 2023-nam;
 		if(n<16) {
 			System.out.println("Ban "+ten+" o do tuoi vi thanh nien");
 		}
