@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class HinhTru extends HinhTron {
 	public float chieuCao;
 	
+	public float getChieuCao() {
+		return chieuCao;
+	}
+	public void setChieuCao(float chieuCao) {
+		this.chieuCao = chieuCao;
+	}
 	public HinhTru() {
 		ten = "hinh tru";
 		nhapChieuCao();

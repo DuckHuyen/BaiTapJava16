@@ -5,6 +5,19 @@ import java.util.Scanner;
 public class HinhChuNhat extends HinhHoc {
 	public float chieuDai;
 	public float chieuRong;
+	
+	public float getChieuDai() {
+		return chieuDai;
+	}
+	public void setChieuDai(float chieuDai) {
+		this.chieuDai = chieuDai;
+	}
+	public float getChieuRong() {
+		return chieuRong;
+	}
+	public void setChieuRong(float chieuRong) {
+		this.chieuRong = chieuRong;
+	}
 	public HinhChuNhat() {
 		ten = "hinh chu nhat";
 		nhapThongTin();

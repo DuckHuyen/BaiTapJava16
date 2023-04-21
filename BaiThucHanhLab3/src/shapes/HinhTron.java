@@ -5,6 +5,13 @@ import java.util.Scanner;
 public class HinhTron extends HinhHoc {
 	public float banKinh;
 	
+	
+	public float getBanKinh() {
+		return banKinh;
+	}
+	public void setBanKinh(float banKinh) {
+		this.banKinh = banKinh;
+	}
 	public HinhTron() {
 		ten = "hinh tron";
 		nhapBanKinh();

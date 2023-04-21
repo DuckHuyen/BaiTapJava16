@@ -11,6 +11,7 @@ public class main {
 		System.out.println("1.Hinh Tron");
 		System.out.println("2. Hinh Tru");
 		System.out.println("3. Hinh Chu Nhat");
+		System.out.println("4. Hinh Vuong");
 		int n = scan.nextInt();
 		switch(n) {
 		case 1:{
@@ -28,6 +29,10 @@ public class main {
 			hcn.inThongTin();
 		}
 		break;
+		case 4 :{
+			shapes.HinhHoc hv = new HinhVuong();
+			hv.inThongTin();
+		}
 		}
 		
 	}
