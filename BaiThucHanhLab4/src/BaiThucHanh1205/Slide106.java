@@ -13,7 +13,7 @@ public class Slide106 {
           tm.put(8, 'C');
           tm.put(9, 'D');
           tm.put(10, 'E');
-          Set<Entry<Integer, Character>> stm = tm.entrySet();
+          Set<java.util.Map.Entry<Integer, Character>> stm = tm.entrySet();
           System.out.println("cac entry :");
           System.out.println(stm);
      }
